@@ -10,5 +10,5 @@ public final class NameComparator implements Comparator {
     private NameComparator() { }
 
     public int compare(Object left, Object right) throws ClassCastException
-    { return ((Student)left).porNazw((Student)right); }
+    { return ((Student)left).porImienia((Student)right); }
 }

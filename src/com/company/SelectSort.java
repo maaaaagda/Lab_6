@@ -18,7 +18,7 @@ public class SelectSort implements StudentSorter
             int smallest = slot;
             for (int check = slot + 1; check < size; ++check)
             {
-                System.out.println(_comparator.compare(objects[check], objects[smallest]));
+               // System.out.println(_comparator.compare(objects[check], objects[smallest]));
                 int t =_comparator.compare(objects[check], objects[smallest]);
                 if (t < 0)
                     smallest = check;
